@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    color: #2b2839;
+    background-color: #ddebf8;
+    border-bottom: 6px solid #d8cefe;
+}
+
+/*Challenges:
+Find a websafe font to use
+Find a color palette on coolors.com and use it in the card.
+Add a shadow
+Add hover effects
+Maybe add some css animations*/

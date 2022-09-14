@@ -1,0 +1,78 @@
+*{
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+}
+body{
+    background-image: linear-gradient(#a2d2ff,#EFB0C9);
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 1px black;
+}
+
+.pic{
+    border-radius: 50%;/*makes the picture a picture*/
+    height: 200px;
+    width: 200px;
+    border: 5px solid #EFB0C9
+}
+
+.pink{
+    background-color: #EFB0C9;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+h4{
+    margin: -5px;
+}
+
+.gift-section{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gift-img{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url('https://media.istockphoto.com/id/1061244474/vector/red-crossed-ribbons-and-bow-vector-realistic-design-element.webp?s=612x612&w=is&k=20&c=igu2-R-QLCg6yNHDYIOHRehTFJc01pb_YJ6jrZjypow=');
+    background-size: cover;
+}
+#gift-1:hover {
+    background-image: url("https://media.giphy.com/media/SsIPF2HnLYlQnFGKsZ/giphy.gif");
+}
+
+#gift-2:hover {
+    background-image: url('https://media.giphy.com/media/6kowdZn2VXQPu/giphy.gif')
+}
+
+#gift-3:hover {
+    background-image: url('https://media.giphy.com/media/czubJ08i7deuKGJE9A/giphy.gif')
+}
+
+#gift-4:hover {
+    background-image: url('https://media.giphy.com/media/42wQXwITfQbDGKqUP7/giphy.gif')
+}
+
+#gift-img-cheers{
+    height: 250px;
+}
+
+#gift-img-cheers:hover{
+    background-image: url('https://media.giphy.com/media/6oB3X3W6MYM3C/giphy.gif')
+}
+.footer{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic;
+    margin-top: 40px;
+}
